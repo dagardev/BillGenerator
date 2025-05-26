@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+fieldset{
+    width: 30%;
+    /* border: 1px solid black; */
+    margin: 100px auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+legend{
+    text-align: center;
+}
+
+.input-width{
+    width: 200px;
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid rgb(96, 76, 76);
+}
+
+td{
+    padding: 10px;
+}
+

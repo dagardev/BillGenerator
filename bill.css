@@ -65,4 +65,17 @@ tr:nth-last-child(even){
     background-color: rgb(246, 254, 254);
 }
 
+.thank-you{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.total{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
 

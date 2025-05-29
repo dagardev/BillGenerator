@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-    width: 50%;
+    /* width: 50%; */
     margin: 100px auto;
     border: 1px solid black;
     padding: 20px;
@@ -19,23 +19,25 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px;
+    margin: 50px 0px;
 }
 
 .name-heading{
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px 0px;
 }
 
 .client-details-wraper{
     display: flex;
     justify-content: space-between;
+    margin: 20px 0px;  
 }
 
 .item-table{
     /* text-align: center; */
     display: flex;
     justify-content: center;
+    margin: 50px 0px;
 }
 
 table{

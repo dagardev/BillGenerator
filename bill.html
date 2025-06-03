@@ -32,52 +32,64 @@
             <div class="date">
                 <h4>Invoice Date: </h4>
                 <hr>
-                <p>12/12/12</p>
+                <p id="date">12/12/12</p>
             </div>
         </div>
         <div class="item-table">
             <table>
                 <tr>
-                    <th>Description</th>
+                    <th>Item</th>
                     <th>Qty.</th>
                     <th>Unit Price</th>
                     <th>Total Price</th>
                 </tr>
                 <tr>
-                    <td>demo....</td>
-                    <td>demo....</td>
-                    <td>demo....</td>
-                    <td>demo....</td>
+                    <td id="item">demo....</td>
+                    <td id="qty">demo....</td>
+                    <td id="price">demo....</td>
+                    <td id="total-price">demo....</td>
                 </tr>
                 <tr>
-                    <td>demo....</td>
-                    <td>demo....</td>
-                    <td>demo....</td>
-                    <td>demo....</td>
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
                 </tr>
                 <tr>
-                    <td>demo....</td>
-                    <td>demo....</td>
-                    <td>demo....</td>
-                    <td>demo....</td>
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
                 </tr>
                 <tr>
-                    <td>demo....</td>
-                    <td>demo....</td>
-                    <td>demo....</td>
-                    <td>demo....</td>
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
+                    <!-- <td></td> -->
                 </tr>
             </table>
         </div>
         <div class="thank-you">
             <p>Thank you for your business! </p>
             <div class="total">
-                <p>TOTAL</p><span>1000</span>
+                <p>GST &nbsp;<span id="gst">Demo</span></p>
+                <p>Grand Total &nbsp;<span id="grand-total">Demo</span></p>
             </div>
         </div>
-        <button id="printbtn">Print</button>
-         <!-- <button onclick="printCurrentPage()">Print Page</button> -->
+        <div class="footer">
+            <div class="declaration">
+                <h4>Declaration</h4>
+                We declare that this invoice shows the actual price of the goods described above and that all particulars are true and correct. The goods sold are intended for end user consumption and not for resale.
+            </div>
+            <div class="signature">
+                <h4>Signature</h4>
+                <p class="signature-text">No Signature Required:
+                    <br>It clarifies that a manual signature is not needed, as the bill is electronically valid
+                </p>
+            </div>
+        </div>
     </div>
+    <button class="printbtn" id="printbtn">Print</button>
     <script src="bill.js"></script>
 </body>
 

@@ -1,5 +1,23 @@
 function getdata(){
     let name=document.getElementById("name").value;
-    alert(name)
+    localStorage.setItem("name",name)
+    
+    let address=document.getElementById("address").value;
+    localStorage.setItem("address",address)
+
+    let contact=document.getElementById("contact").value;
+    localStorage.setItem("contact",contact)
+
+    let item=document.getElementById("item").value;
+    localStorage.setItem("item",item)
+    
+    let qty=document.getElementById("qty").value;
+    localStorage.setItem("qty",qty)
+
+    let price=document.getElementById("price").value;
+    localStorage.setItem("price",price)
+    // console.log(name,address,contact);
+    
 }
+
 

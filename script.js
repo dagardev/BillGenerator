@@ -16,6 +16,9 @@ function getdata(){
 
     let price=document.getElementById("price").value;
     localStorage.setItem("price",price)
+
+    let gst=document.getElementById("gst").value;
+    localStorage.setItem("gst",gst)
     // console.log(name,address,contact);
     
 }

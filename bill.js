@@ -35,10 +35,11 @@ document.querySelector("#item").innerText=item
 let qty=localStorage.getItem("qty")
 document.querySelector("#qty").innerText=qty
 
-
+let gst=localStorage.getItem("gst")
+let gstpercent=gst/100
 let price=localStorage.getItem("price")
 //GST Calculation
-let gstamount=price*0.18
+let gstamount=price*gstpercent
 let priceAfterGST=document.querySelector("#price").innerText=price-gstamount
 console.log(price);
 

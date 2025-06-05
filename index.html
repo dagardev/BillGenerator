@@ -10,9 +10,22 @@
 </head>
 
 <body>
-    <fieldset>
+    <header id="header">
+        <h1>COMPUTER WORLD</h1>
+        <p>Welcome to the Bill Generator App</p>
+        <h2>Login</h2>
+        <div class="auth">
+            <input class="input-width" type="text" id="username" placeholder="Enter Username"><br>
+            <input class="input-width" type="password" id="password" placeholder="Enter password"><br>
+            <button class="btn" onclick="login()">Login</button>
+            <button class="btn" onclick="logout()">Logout</button>
+            <p id="status">Not Logged In</p>
+        </div>
+    </header>
+
+    <fieldset id="login-fieldset">
         <!-- <legend>Bill Generator</legend> -->
-        <form action="bill.html" onsubmit="getdata()" method="get" autocomplete="off">
+        <form action="bill.html" onsubmit="return getdata()" method="get" autocomplete="off">
             <table>
                 <tr>
                     <td><label for="name">Name</label></td>
@@ -24,7 +37,8 @@
                 </tr>
                 <tr>
                     <td><label for="contact">Contact No.</label></td>
-                    <td><input class="input-width" placeholder=" Mobile No." type="text" name="contact" id="contact"></td>
+                    <td><input class="input-width" placeholder=" Mobile No." type="text" name="contact" id="contact">
+                    </td>
                 </tr>
                 <tr>
                     <td><label for="imei">IMEI/Sr No.</label></td>
@@ -53,6 +67,9 @@
             </table>
         </form>
     </fieldset>
+    <footer>
+        <p>© 2023 Yogesh Mobile Shop. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>

@@ -44,7 +44,7 @@ let price=localStorage.getItem("price")
 //GST Calculation
 let gstamount=price*gstpercent
 let priceAfterGST=document.querySelector("#price").innerText=price-gstamount
-console.log(price);
+// console.log(price);
 
 document.querySelector("#gst").innerText=gstamount*qty
 
@@ -52,7 +52,7 @@ let totalprice=qty*priceAfterGST
 document.querySelector("#total-price").innerText=totalprice
 
 // let gstamount=totalprice*0.18
-console.log(gstamount);
+// console.log(gstamount);
 
 let grandtotal=totalprice+gstamount*qty
 document.querySelector("#grand-total").innerText=grandtotal

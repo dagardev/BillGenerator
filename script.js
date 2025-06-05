@@ -8,6 +8,9 @@ function getdata(){
     let contact=document.getElementById("contact").value;
     localStorage.setItem("contact",contact)
 
+    let imei=document.getElementById("imei").value;
+    localStorage.setItem("imei",imei)
+
     let item=document.getElementById("item").value;
     localStorage.setItem("item",item)
     

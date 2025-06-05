@@ -29,6 +29,9 @@ document.querySelector("#address").innerText=address
 let contact=localStorage.getItem("contact")
 document.querySelector("#contact").innerText=contact
 
+let imei=localStorage.getItem("imei")
+document.querySelector("#imei").innerText=imei
+
 let item=localStorage.getItem("item")
 document.querySelector("#item").innerText=item
 

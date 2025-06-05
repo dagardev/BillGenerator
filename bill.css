@@ -33,6 +33,11 @@ body{
     margin: 20px 0px;  
 }
 
+.imei{
+    font-size: 1em;
+    font-weight: 400;
+}
+
 .item-table{
     /* text-align: center; */
     display: flex;

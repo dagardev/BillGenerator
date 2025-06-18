@@ -1,9 +1,9 @@
 function login(){
     // Get values from input fields
-    let username=document.getElementById("username").value;
-    let password=document.getElementById("password").value;
+    let username =document.getElementById("username").value.toUpperCase();
+    let password =document.getElementById("password").value;
     
-    if (username === "yogesh" && password === "829112") {
+    if (username === "YOGESH" && password === "9112") {
         alert("Login successful");
         // display the form and hide the login form
         document.getElementById("login-fieldset").style.display = "block";

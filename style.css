@@ -40,7 +40,7 @@ fieldset{
     width: 30%;
     padding: 50px;
     border: none;
-    margin: 100px auto;
+    margin: 100px auto 0px auto;
     border-radius: 10px;
     display: flex;
     align-items: center;
